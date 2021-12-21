@@ -1,5 +1,7 @@
 package com.Amazon_project_TestCases;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Reporter;
@@ -31,7 +33,7 @@ public class LoginTest  {
 	  
 	  @Parameters({"username","password"})
 	  @Test(priority=0)
-	  public void verify_valid_login(String username,String password) {
+	  public void verify_valid_login(String username,String password) throws IOException {
 		  
 		  loginpage = PageFactory.initElements(driver, Login_PageObjects.class);
 		  loginpage.getusername(username).getpassword(password).getloginbutton().getsignout();
@@ -40,7 +42,7 @@ public class LoginTest  {
 	  
 	  @Parameters({"uname","password"})
 	  @Test(priority=1)
-	  public void verify_invalid_login(String uname,String password) {
+	  public void verify_invalid_login(String uname,String password) throws IOException {
 		  loginpage = PageFactory.initElements(driver, Login_PageObjects.class);
 		  loginpage.getusername(uname).getpassword(password).getloginbutton();
 		  Reporter.log("Login fail");
