@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="username" value="qatrainer"></parameter>
+<parameter name="uname" value="tester"></parameter>
+<parameter name="password" value="admin123"></parameter>
+  
+  
+   <test  name="chrometest">
+  
+    <classes>
+      <class name="com.Amazon_project_TestCases.LoginTest"/>
+    </classes>
+  </test> <!-- search -->
+  
+  
+  
+  
+  
+</suite> <!-- Suite -->

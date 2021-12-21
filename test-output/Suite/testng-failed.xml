@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin123"/>
+  <parameter name="uname" value="tester"/>
+  <parameter name="username" value="qatrainer"/>
+  <test thread-count="5" name="chrometest(failed)">
+    <classes>
+      <class name="com.Amazon_project_TestCases.LoginTest">
+        <methods>
+          <include name="getbrowser"/>
+          <include name="verify_valid_login"/>
+          <include name="verify_invalid_login"/>
+          <include name="closetest"/>
+        </methods>
+      </class> <!-- com.Amazon_project_TestCases.LoginTest -->
+    </classes>
+  </test> <!-- chrometest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
