@@ -11,24 +11,14 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import com.BaseTest.BaseClass;
 import com.Project_Utils.BrowwserFactory;
 import com.Project_Utils.Login_PageObjects;
 
 
-public class LoginTest  {
-	
-	public WebDriver driver;
-	//How to work with page objects elements
-	public Login_PageObjects loginpage;	
-	public BrowwserFactory browser = new BrowwserFactory();
+public class LoginTest extends BaseClass {
 	
 	
-	@BeforeTest
-	public void getbrowser() {
-		
-		driver = browser.startBrowser("chrome", "https://www.mycontactform.com/");
-		
-	}
 	
 	  
 	  @Parameters({"username","password"})
@@ -52,13 +42,7 @@ public class LoginTest  {
 	 
 	  
 	  
-	  @AfterTest
-	  public void closetest() {
-		 
-		  driver.close();
-		  
-		  
-	  }
+	 
 	 
 	
 

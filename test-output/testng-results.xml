@@ -8,16 +8,16 @@
       <![CDATA[Login fail]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-12-22T19:08:19 IST" name="Suite" finished-at="2021-12-22T19:08:51 IST" duration-ms="31607">
+  <suite started-at="2021-12-22T19:35:28 IST" name="Suite" finished-at="2021-12-22T19:35:59 IST" duration-ms="31422">
     <groups>
     </groups>
-    <test started-at="2021-12-22T19:08:19 IST" name="LoginTest" finished-at="2021-12-22T19:08:38 IST" duration-ms="18136">
+    <test started-at="2021-12-22T19:35:28 IST" name="LoginTest" finished-at="2021-12-22T19:35:42 IST" duration-ms="13573">
       <class name="com.Amazon_project_TestCases.LoginTest">
-        <test-method is-config="true" signature="getbrowser()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@55634720]" started-at="2021-12-22T19:08:19 IST" name="getbrowser" finished-at="2021-12-22T19:08:31 IST" duration-ms="11159" status="PASS">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@13fd2ccd]" started-at="2021-12-22T19:35:28 IST" name="getbrowser" finished-at="2021-12-22T19:35:35 IST" duration-ms="7142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getbrowser -->
-        <test-method signature="verify_valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon_project_TestCases.LoginTest@55634720]" started-at="2021-12-22T19:08:31 IST" name="verify_valid_login" finished-at="2021-12-22T19:08:35 IST" duration-ms="4041" status="PASS">
+        <test-method signature="verify_valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon_project_TestCases.LoginTest@13fd2ccd]" started-at="2021-12-22T19:35:35 IST" name="verify_valid_login" finished-at="2021-12-22T19:35:39 IST" duration-ms="4257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_valid_login -->
-        <test-method signature="verify_invalid_login(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon_project_TestCases.LoginTest@55634720]" started-at="2021-12-22T19:08:35 IST" name="verify_invalid_login" finished-at="2021-12-22T19:08:37 IST" duration-ms="2603" status="PASS">
+        <test-method signature="verify_invalid_login(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon_project_TestCases.LoginTest@13fd2ccd]" started-at="2021-12-22T19:35:39 IST" name="verify_invalid_login" finished-at="2021-12-22T19:35:41 IST" duration-ms="1831" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,23 +55,23 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_invalid_login -->
-        <test-method is-config="true" signature="closetest()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@55634720]" started-at="2021-12-22T19:08:37 IST" name="closetest" finished-at="2021-12-22T19:08:38 IST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@13fd2ccd]" started-at="2021-12-22T19:35:41 IST" name="closetest" finished-at="2021-12-22T19:35:42 IST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- com.Amazon_project_TestCases.LoginTest -->
     </test> <!-- LoginTest -->
-    <test started-at="2021-12-22T19:08:38 IST" name="Gmail_Links_test" finished-at="2021-12-22T19:08:51 IST" duration-ms="13242">
+    <test started-at="2021-12-22T19:35:42 IST" name="Gmail_Links_test" finished-at="2021-12-22T19:35:59 IST" duration-ms="17768">
       <class name="com.Amazon_project_TestCases.Gmail_Links">
-        <test-method is-config="true" signature="setupsuite()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:19 IST" name="setupsuite" finished-at="2021-12-22T19:08:19 IST" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="setupsuite()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:28 IST" name="setupsuite" finished-at="2021-12-22T19:35:28 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupsuite -->
-        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:38 IST" name="startBrowser" finished-at="2021-12-22T19:08:43 IST" duration-ms="5297" status="PASS">
+        <test-method is-config="true" signature="startBrowser()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:42 IST" name="startBrowser" finished-at="2021-12-22T19:35:47 IST" duration-ms="5751" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startBrowser -->
-        <test-method signature="verify_gmail_link()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:43 IST" name="verify_gmail_link" description="TestCase1" finished-at="2021-12-22T19:08:43 IST" duration-ms="156" status="FAIL">
+        <test-method signature="verify_gmail_link()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:47 IST" name="verify_gmail_link" description="TestCase1" finished-at="2021-12-22T19:35:48 IST" duration-ms="125" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [gmail] but found [Gmail]]]>
@@ -119,18 +119,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_gmail_link -->
-        <test-method is-config="true" signature="failed_report(org.testng.ITestResult)[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:43 IST" name="failed_report" finished-at="2021-12-22T19:08:43 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="failed_report(org.testng.ITestResult)[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:48 IST" name="failed_report" finished-at="2021-12-22T19:35:48 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_gmail_link status=FAILURE method=Gmail_Links.verify_gmail_link()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20] output={null}]]]>
+                <![CDATA[[TestResult name=verify_gmail_link status=FAILURE method=Gmail_Links.verify_gmail_link()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failed_report -->
-        <test-method signature="verify_imageslink()[pri:1, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:43 IST" name="verify_imageslink" finished-at="2021-12-22T19:08:43 IST" duration-ms="69" status="FAIL">
+        <test-method signature="verify_imageslink()[pri:1, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:48 IST" name="verify_imageslink" finished-at="2021-12-22T19:35:48 IST" duration-ms="129" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [images] but found [Images]]]>
@@ -178,22 +178,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_imageslink -->
-        <test-method is-config="true" signature="failed_report(org.testng.ITestResult)[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:43 IST" name="failed_report" finished-at="2021-12-22T19:08:50 IST" duration-ms="6813" status="PASS">
+        <test-method is-config="true" signature="failed_report(org.testng.ITestResult)[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:48 IST" name="failed_report" finished-at="2021-12-22T19:35:54 IST" duration-ms="6743" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_imageslink status=FAILURE method=Gmail_Links.verify_imageslink()[pri:1, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20] output={null}]]]>
+                <![CDATA[[TestResult name=verify_imageslink status=FAILURE method=Gmail_Links.verify_imageslink()[pri:1, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failed_report -->
-        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@298a5e20]" started-at="2021-12-22T19:08:50 IST" name="closebrowser" finished-at="2021-12-22T19:08:51 IST" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:com.Amazon_project_TestCases.Gmail_Links@2a7f1f10]" started-at="2021-12-22T19:35:54 IST" name="closebrowser" finished-at="2021-12-22T19:35:59 IST" duration-ms="5000" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebrowser -->
       </class> <!-- com.Amazon_project_TestCases.Gmail_Links -->
+      <class name="com.Amazon_project_TestCases.LoginTest">
+        <test-method is-config="true" signature="setup_Project_Suite()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@13fd2ccd]" started-at="2021-12-22T19:35:28 IST" name="setup_Project_Suite" finished-at="2021-12-22T19:35:28 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Project_Suite -->
+      </class> <!-- com.Amazon_project_TestCases.LoginTest -->
     </test> <!-- Gmail_Links_test -->
   </suite> <!-- Suite -->
 </testng-results>
