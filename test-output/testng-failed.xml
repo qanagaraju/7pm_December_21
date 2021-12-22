@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="admin123"/>
+  <parameter name="uname" value="tester"/>
+  <parameter name="username" value="qatrainer"/>
+  <test thread-count="5" name="Gmail_Links_test(failed)">
     <classes>
-      <class name="com.Amazon_project_TestCases.Test_Reports">
+      <class name="com.Amazon_project_TestCases.Gmail_Links">
         <methods>
-          <include name="closebrowser"/>
-          <include name="verify_gmail_link"/>
-          <include name="failed_report"/>
-          <include name="verify_imageslink"/>
           <include name="setupsuite"/>
           <include name="startBrowser"/>
+          <include name="verify_imageslink"/>
+          <include name="failed_report"/>
+          <include name="verify_gmail_link"/>
+          <include name="closebrowser"/>
         </methods>
-      </class> <!-- com.Amazon_project_TestCases.Test_Reports -->
+      </class> <!-- com.Amazon_project_TestCases.Gmail_Links -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Gmail_Links_test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

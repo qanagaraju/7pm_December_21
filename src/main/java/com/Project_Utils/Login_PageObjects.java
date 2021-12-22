@@ -2,6 +2,7 @@ package com.Project_Utils;
 
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -15,10 +16,14 @@ public class Login_PageObjects {
 	@FindBy(xpath="//*[@id=\"user_bar\"]/ul/li[1]/a")WebElement signout;
 	@FindBy(id = "right_col_top_err")WebElement user_message;
 	
+	
+	
 	static CaptureScreens capture = new CaptureScreens();
 	
 	
 	public Login_PageObjects getusername(String un) throws IOException {
+		
+	
 		
 	username.sendKeys(un);
 	capture.capturescreens(driver, username, "username");

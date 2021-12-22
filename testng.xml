@@ -7,7 +7,7 @@
 <parameter name="password" value="admin123"></parameter>
   
   
-   <test  name="chrometest">
+   <test  name="LoginTest">
   
     <classes>
       <class name="com.Amazon_project_TestCases.LoginTest"/>
@@ -15,7 +15,12 @@
   </test> <!-- search -->
   
   
+  <test  name="Gmail_Links_test">
   
+    <classes>
+      <class name="com.Amazon_project_TestCases.Gmail_Links"/>
+    </classes>
+  </test> <!-- search -->
   
   
 </suite> <!-- Suite -->

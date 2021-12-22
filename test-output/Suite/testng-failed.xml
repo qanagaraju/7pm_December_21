@@ -4,16 +4,18 @@
   <parameter name="password" value="admin123"/>
   <parameter name="uname" value="tester"/>
   <parameter name="username" value="qatrainer"/>
-  <test thread-count="5" name="chrometest(failed)">
+  <test thread-count="5" name="Gmail_Links_test(failed)">
     <classes>
-      <class name="com.Amazon_project_TestCases.LoginTest">
+      <class name="com.Amazon_project_TestCases.Gmail_Links">
         <methods>
-          <include name="getbrowser"/>
-          <include name="verify_valid_login"/>
-          <include name="verify_invalid_login"/>
-          <include name="closetest"/>
+          <include name="setupsuite"/>
+          <include name="startBrowser"/>
+          <include name="verify_imageslink"/>
+          <include name="failed_report"/>
+          <include name="verify_gmail_link"/>
+          <include name="closebrowser"/>
         </methods>
-      </class> <!-- com.Amazon_project_TestCases.LoginTest -->
+      </class> <!-- com.Amazon_project_TestCases.Gmail_Links -->
     </classes>
-  </test> <!-- chrometest(failed) -->
+  </test> <!-- Gmail_Links_test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

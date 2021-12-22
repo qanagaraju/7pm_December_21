@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Login Successverified valid login]]>
@@ -7,17 +7,29 @@
     <line>
       <![CDATA[Login fail]]>
     </line>
+    <line>
+      <![CDATA[Login Successverified valid login]]>
+    </line>
+    <line>
+      <![CDATA[Login fail]]>
+    </line>
+    <line>
+      <![CDATA[Login Successverified valid login]]>
+    </line>
+    <line>
+      <![CDATA[Login fail]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="14176" started-at="2021-12-21T19:34:41 IST" finished-at="2021-12-21T19:34:55 IST">
+  <suite started-at="2021-12-22T08:53:26 IST" name="Suite" finished-at="2021-12-22T08:53:59 IST" duration-ms="33010">
     <groups>
     </groups>
-    <test name="chrometest" duration-ms="14176" started-at="2021-12-21T19:34:41 IST" finished-at="2021-12-21T19:34:55 IST">
+    <test started-at="2021-12-22T08:53:26 IST" name="chrometest" finished-at="2021-12-22T08:53:40 IST" duration-ms="14270">
       <class name="com.Amazon_project_TestCases.LoginTest">
-        <test-method status="PASS" signature="getbrowser()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@528931cf]" name="getbrowser" is-config="true" duration-ms="8519" started-at="2021-12-21T19:34:41 IST" finished-at="2021-12-21T19:34:49 IST">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@2dde1bff]" started-at="2021-12-22T08:53:26 IST" name="getbrowser" finished-at="2021-12-22T08:53:33 IST" duration-ms="7743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getbrowser -->
-        <test-method status="PASS" signature="verify_valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon_project_TestCases.LoginTest@528931cf]" name="verify_valid_login" duration-ms="3831" started-at="2021-12-21T19:34:49 IST" finished-at="2021-12-21T19:34:53 IST">
+        <test-method signature="verify_valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon_project_TestCases.LoginTest@2dde1bff]" started-at="2021-12-22T08:53:33 IST" name="verify_valid_login" finished-at="2021-12-22T08:53:37 IST" duration-ms="3906" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +48,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_valid_login -->
-        <test-method status="PASS" signature="verify_invalid_login(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon_project_TestCases.LoginTest@528931cf]" name="verify_invalid_login" duration-ms="1364" started-at="2021-12-21T19:34:53 IST" finished-at="2021-12-21T19:34:55 IST">
+        <test-method signature="verify_invalid_login(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon_project_TestCases.LoginTest@2dde1bff]" started-at="2021-12-22T08:53:37 IST" name="verify_invalid_login" finished-at="2021-12-22T08:53:39 IST" duration-ms="2047" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +67,111 @@
             </line>
           </reporter-output>
         </test-method> <!-- verify_invalid_login -->
-        <test-method status="PASS" signature="closetest()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@528931cf]" name="closetest" is-config="true" duration-ms="295" started-at="2021-12-21T19:34:55 IST" finished-at="2021-12-21T19:34:55 IST">
+        <test-method is-config="true" signature="closetest()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@2dde1bff]" started-at="2021-12-22T08:53:39 IST" name="closetest" finished-at="2021-12-22T08:53:40 IST" duration-ms="500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closetest -->
       </class> <!-- com.Amazon_project_TestCases.LoginTest -->
     </test> <!-- chrometest -->
+    <test started-at="2021-12-22T08:53:40 IST" name="firefox" finished-at="2021-12-22T08:53:49 IST" duration-ms="9196">
+      <class name="com.Amazon_project_TestCases.LoginTest">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@2a54a73f]" started-at="2021-12-22T08:53:40 IST" name="getbrowser" finished-at="2021-12-22T08:53:44 IST" duration-ms="3891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method signature="verify_valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon_project_TestCases.LoginTest@2a54a73f]" started-at="2021-12-22T08:53:44 IST" name="verify_valid_login" finished-at="2021-12-22T08:53:47 IST" duration-ms="3625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatrainer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successverified valid login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_valid_login -->
+        <test-method signature="verify_invalid_login(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon_project_TestCases.LoginTest@2a54a73f]" started-at="2021-12-22T08:53:47 IST" name="verify_invalid_login" finished-at="2021-12-22T08:53:49 IST" duration-ms="1553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_invalid_login -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@2a54a73f]" started-at="2021-12-22T08:53:49 IST" name="closetest" finished-at="2021-12-22T08:53:49 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- com.Amazon_project_TestCases.LoginTest -->
+    </test> <!-- firefox -->
+    <test started-at="2021-12-22T08:53:49 IST" name="edge" finished-at="2021-12-22T08:53:59 IST" duration-ms="9516">
+      <class name="com.Amazon_project_TestCases.LoginTest">
+        <test-method is-config="true" signature="getbrowser()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@5fbdfdcf]" started-at="2021-12-22T08:53:49 IST" name="getbrowser" finished-at="2021-12-22T08:53:53 IST" duration-ms="3910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getbrowser -->
+        <test-method signature="verify_valid_login(java.lang.String,java.lang.String)[pri:0, instance:com.Amazon_project_TestCases.LoginTest@5fbdfdcf]" started-at="2021-12-22T08:53:53 IST" name="verify_valid_login" finished-at="2021-12-22T08:53:57 IST" duration-ms="3714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatrainer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successverified valid login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_valid_login -->
+        <test-method signature="verify_invalid_login(java.lang.String,java.lang.String)[pri:1, instance:com.Amazon_project_TestCases.LoginTest@5fbdfdcf]" started-at="2021-12-22T08:53:57 IST" name="verify_invalid_login" finished-at="2021-12-22T08:53:59 IST" duration-ms="1719" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login fail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify_invalid_login -->
+        <test-method is-config="true" signature="closetest()[pri:0, instance:com.Amazon_project_TestCases.LoginTest@5fbdfdcf]" started-at="2021-12-22T08:53:59 IST" name="closetest" finished-at="2021-12-22T08:53:59 IST" duration-ms="166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closetest -->
+      </class> <!-- com.Amazon_project_TestCases.LoginTest -->
+    </test> <!-- edge -->
   </suite> <!-- Suite -->
 </testng-results>

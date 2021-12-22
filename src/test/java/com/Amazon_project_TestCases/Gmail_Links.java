@@ -24,7 +24,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 //@Listeners(com.TestNG_Listeners.BaseListener.class)
-public class Test_Reports {
+public class Gmail_Links {
 
 	static WebDriver driver;
 	static CaptureScreens screen;
